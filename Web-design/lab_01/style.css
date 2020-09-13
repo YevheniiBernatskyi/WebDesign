@@ -1,0 +1,68 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+}
+table {
+	border-collapse: collapse;
+	border: 1px solid;
+	margin: 0 auto;
+}
+
+td, th {
+	border: 1px solid #aaa;
+	padding: 10px;
+	background: #efefef;
+	text-align: center;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#header {
+	background: #F8E0E0;
+	border: 1px solid #aaa;
+	padding: 10px;
+	text-align: center;
+}
+
+.navbar {
+	list-style-type: none;
+}
+
+.navbar li {
+	display: inline-block;
+	border: 1px solid #aaa;
+}
+
+.navbar li.active {
+	background-color: #0B0B61;
+}
+
+.navbar li.active a {
+	color: white;
+}
+
+.navbar li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.medals td:nth-child(2) {
+	text-align: left;
+}
+
+.medals td:nth-child(3) {
+	background:#F7F6A8;
+}
+
+.medals td:nth-child(4) {
+	background:#DCE5E5;
+}
+
+.medals td:nth-child(5) {
+	background:#FFDAB9;
+}
