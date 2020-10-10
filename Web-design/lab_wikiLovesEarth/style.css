@@ -1,0 +1,284 @@
+@font-face {
+font-family: 'Montserrat';
+src: url('Fonts/Montserrat-Regular.ttf') format('ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Montserrat';
+src: url('Fonts/Montserrat-Bold.ttf') format('ttf');
+font-weight: bolder;
+font-style: normal;
+}
+@font-face {
+font-family: 'Montserrat';
+src: url('Fonts/Montserrat-SemiBold.ttf') format('ttf');
+font-weight: bold;
+font-style: normal;
+}
+
+html,body{
+	font-family: Montserrat;
+	text-align: center;
+
+}
+header li {
+  float: left;
+}
+
+
+ header ul {
+  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  
+}
+
+header li a {
+  
+  color: white;
+  display: block;
+  background-color: #2E9A66;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+
+header li a:hover {
+  background-color: #111;
+}
+	
+
+.active_faq {
+  background-color: #2E9A66;
+}
+.active{
+  background-color: #111;
+}
+.logo_center img{
+  
+  display: block;
+  margin-top: 60px;
+  height:350px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  }
+
+ .text_center h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-top: 5%;
+ }
+ .text_center h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+
+  
+
+ }
+ .h2_center{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 45px;
+  margin-bottom: 2px;
+ }
+ .text_center p{
+  text-align: center;
+  font-weight: normal;
+  font-size: 23px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top:-30px;
+ }
+ .list_center img{
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+ }
+ .list_center{
+ 	text-align: center;
+ }
+ .list_center_left_aligned{
+  display: inline-block;
+  text-align: left;
+  font-weight: normal;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: -35px;
+  list-style-type: none;
+ }
+ .list_center_left_aligned li{
+  padding: 12px;
+ }
+ .table_center{
+ 	text-align: center;
+ 	margin-left: 40px;
+ 	margin-right: 40px;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ 	margin-bottom: 100px;
+ }
+ .table_center tr,td{
+ 	
+ 	border: 0px solid white;
+ 	border-collapse: collapse;
+ }
+ .table_center figcaption{
+ 	margin-top: -30px;
+ }
+ .table_center img{
+ 	width: 190px;
+ 	height: 170px;
+
+ }
+ .winners_table_center{
+ 	text-align: center;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ 	font-weight: bold;
+ 	font-size: 15px;
+ 	margin-bottom: 20px;
+ }
+ .winners_table_center tr,td{
+ 	
+ 	border: 0px solid white;
+ 	border-collapse: collapse;
+ 	vertical-align: top;
+ }
+ .winners_table_center figcaption{
+ 	
+ 	text-align: center;
+ 	font-weight: bold;
+ 	font-size: 17px;
+ 	margin-left:40px;
+ 	margin-right: 40px;
+ 	padding: 14px;
+ 	color: white;
+ 	border-style: 4px solid;
+ 	background-color: #2E9A66;
+ 	border-radius: 20px;
+ }
+ .winners_table_center img{
+ 	vertical-align: middle;
+ 	border-color: #2E9A66;
+ 	width: 400px;
+ 	height: 250px;
+ 	border-radius: 20px;
+}
+
+.form-style{
+    margin: auto;
+}
+.form-style li{
+    list-style: none;
+    margin:10px;
+
+}
+.form-style input[type=text]{
+    width: 400px;
+    height: 40px;
+    border: 0.4px solid black;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: center;
+    box-sizing: border-box;
+    text-indent: 10px;
+}
+.form-style input[type=text]:hover{
+    border: 3px solid black;
+}
+.form-style input [type=file]{
+    width: 200px;
+    height:40px;
+    background-color:#2E9A66;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.form-style select{
+    width: 400px;
+    height: 40px;
+    border: 0.4px solid black;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-indent: 10px;
+}
+.form-style select:hover{
+    border: 3px solid black;
+}
+.form-style label{
+        font-size: 18px;
+}
+.form-style input[type=submit]{
+    width: 200px;
+    height:40px;
+    background-color:#2E9A66;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.form-style input[type=submit]:hover{
+   border: 3px  solid black;
+}
+
+#upload_file{
+    opacity:0;
+    width: 0;
+    height: 0;
+    position: absolute;
+
+}
+
+.form-style  label{
+    padding: 10px;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+.form-style  label img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.form-style label:hover {
+    border: 1px solid black;
+
+}
+.form-style div{
+    display: block;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
